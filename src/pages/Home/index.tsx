@@ -16,6 +16,7 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
+ 
       <ContentBlock
         type="right"
         title={IntroContent.title}
@@ -24,12 +25,7 @@ const Home = () => {
         icon="cat.jpg"
         id="intro"
       />
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      
-      />
+   
       <ContentBlock
         type="normal"
         title={AboutContent.title}
@@ -46,24 +42,26 @@ const Home = () => {
         id="mission"
       />
       <ContentBlock
-        type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
-      />
-       <ContentBlock
         type="normal"
         title={ProductContent.title}
         content={ProductContent.text}
         icon="waving.svg"
         id="product"
       />
-      {/* <Contact
-        title={ContactContent.title}
-        content={ContactContent.text}
-        id="contact"
-      /> */}
+       <ContentBlock
+        type="left"
+        title={ProductContent.title}
+        content={ProductContent.text}
+        icon="waving.svg"
+        id="product2"
+      />
+
+<MiddleBlock
+        title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+        button={MiddleBlockContent.button}
+      />
+     
     </Container>
   );
 };

@@ -32,7 +32,10 @@ const RightBlock = ({
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+              {/* <Content>{t(content)}</Content> */}
+              <Content
+                dangerouslySetInnerHTML={{ __html: content }}
+              />
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
@@ -41,7 +44,7 @@ const RightBlock = ({
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo("about")}
+                        onClick={() => scrollTo(item.nav)}
                       >
                         {t(item.title)}
                       </Button>

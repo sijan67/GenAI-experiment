@@ -3,11 +3,13 @@
   "text": "Successful Cat CEO standing infront of tall city buildings. ",
   "button": [
     {
-      "title": "Positive impressions"
+      "title": "Positive impressions",
+      "nav": "mission"
     },
     {
       "title": "Limitations",
-      "color": "#fff"
+      "color": "#fff",
+      "nav": "product"
     }
   ]
 }

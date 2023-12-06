@@ -12,7 +12,10 @@ const Block = ({ title, content, t }: Props) => {
     <Container>
       <h6>{t(title)}</h6>
       <TextWrapper>
-        <Content>{t(content)}</Content>
+        {/* <Content>{t(content)}</Content> */}
+        <Content
+                dangerouslySetInnerHTML={{ __html: content }}
+              />
       </TextWrapper>
     </Container>
   );

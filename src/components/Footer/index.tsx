@@ -47,6 +47,9 @@ const Footer = ({ t }: any) => {
 
   return (
     <>
+    <FooterSection>
+      
+    </FooterSection>
       {/* <FooterSection>
         <Container>
           <Row justify="space-between">

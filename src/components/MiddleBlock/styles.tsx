@@ -14,6 +14,11 @@ export const MiddleBlockSection = styled("section")`
 
 export const Content = styled("p")`
   padding: 0.75rem 0 0.75rem;
+  white-space: pre-line;
+`;
+
+export const BoldText = styled("b")`
+  font-weight: 700;
 `;
 
 export const ContentWrapper = styled("div")`

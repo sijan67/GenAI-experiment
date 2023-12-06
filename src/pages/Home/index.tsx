@@ -5,6 +5,7 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import NextYears from "../../content/NextYears.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -50,8 +51,8 @@ const Home = () => {
       />
        <ContentBlock
         type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
+        title={NextYears.title}
+        content={NextYears.text}
         icon="waving.svg"
         id="product2"
       />

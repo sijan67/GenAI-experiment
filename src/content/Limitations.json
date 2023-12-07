@@ -1,4 +1,4 @@
 {
   "title": "Limitations",
-  "text": "The output of the model seems to be inconsistent, in comparison to some other generative tools out there. Given the same prompts, the final image of the cat looks significantly varied in successive iterations. <br><br> Several trials were needed in order to figure out the optimal prompt for the desired image. It was also quite unclear how the prompt generation weighted the keywords. For instance, given the same prompts, the first output was focused on the car as a main subject, whereas the second image was heavy towards generating the technology aspect of the generated image."
+  "text": "The output of the model seems to be inconsistent, given the same prompts, the final image of the cat looks significantly varied in successive iterations. <br> <br> Several trials were needed in order to figure out the optimal prompt for the desired image. It was also quite unclear how the prompt generation weighted the keywords. For instance, given the same prompts, the first output was focused on the cat as a main subject, and did not emphasize on generating the technology aspect for the background. "
 }

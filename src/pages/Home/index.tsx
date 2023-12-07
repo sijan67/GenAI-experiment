@@ -80,7 +80,8 @@ const Home = () => {
         icon="waving.svg"
         id="years"
       />
-
+      <h1>Conclusion</h1>
+      <p>Generative AI is transforming education, work, and society. It is expected to change the way we've been conducting business using conventional ways.<br /><br /> Overall, generative AI is expected to become a transformative force and we can expect huge advancements in its research and development.</p>
       <ContentBlock
         type="normal"
         title={AuthorContent.title}

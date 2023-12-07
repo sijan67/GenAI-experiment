@@ -4,12 +4,12 @@
   "button": [
     {
       "title": "Positive impressions",
-      "nav": "mission"
+      "nav": "impressions"
     },
     {
       "title": "Limitations",
       "color": "#fff",
-      "nav": "product"
+      "nav": "limitations"
     }
   ]
 }

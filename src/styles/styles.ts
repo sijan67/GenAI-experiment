@@ -2,6 +2,28 @@ import { createGlobalStyle } from "styled-components";
 
 export const Styles = createGlobalStyle`
 
+.process-container {
+    display: flex;
+  }
+  
+  .process-left-div, .process-right-div {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .process-right-div * {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .process-left-div p {
+    margin-bottom: 40px;
+    }
+
     @font-face {
         font-family: "Motiva Sans Light";
         src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");

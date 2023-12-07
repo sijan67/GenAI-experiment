@@ -6,6 +6,7 @@ import PositiveImpressions from "../../content/PositiveImpressions.json";
 import Limitations from "../../content/Limitations.json";
 import ContactContent from "../../content/ContactContent.json";
 import ProcessContent from "../../content/ProcessContent.json";
+import AuthorContent from "../../content/Authors.json";
 import NextYears from "../../content/NextYears.json";
 import one from "./img/1.png";
 import two from "./img/2.png";
@@ -78,6 +79,14 @@ const Home = () => {
         content={NextYears.text}
         icon="waving.svg"
         id="years"
+      />
+
+      <ContentBlock
+        type="normal"
+        title={AuthorContent.title}
+        content={AuthorContent.text}
+        icon="authors.png"
+        id="product2"
       />
 
       <MiddleBlock

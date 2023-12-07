@@ -1,8 +1,8 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
-import MiddleBlockContent from "../../content/MiddleBlockContent.json";
+import Sources from "../../content/Sources.json";
 import AboutContent from "../../content/AboutContent.json";
-import MissionContent from "../../content/MissionContent.json";
+import PositiveImpressions from "../../content/PositiveImpressions.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import ProcessContent from "../../content/ProcessContent.json";
@@ -18,7 +18,6 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
- 
       <ContentBlock
         type="right"
         title={IntroContent.title}
@@ -27,7 +26,6 @@ const Home = () => {
         icon="cat.jpg"
         id="intro"
       />
-   
       <ContentBlock
         type="normal"
         title={AboutContent.title}
@@ -36,19 +34,17 @@ const Home = () => {
         icon="process.png"
         id="about"
       />
-
       <MiddleBlock
         title={ProcessContent.title}
         content={ProcessContent.text}
         button={MiddleBlockContent.button}
       />
-
       <ContentBlock
         type="normal"
-        title={MissionContent.title}
-        content={MissionContent.text}
+        title={PositiveImpressions.title}
+        content={PositiveImpressions.text}
         icon="product-launch.svg"
-        id="mission"
+        id="impressions"
       />
       <ContentBlock
         type="normal"
@@ -57,7 +53,7 @@ const Home = () => {
         icon="waving.svg"
         id="product"
       />
-       <ContentBlock
+      <ContentBlock
         type="left"
         title={NextYears.title}
         content={NextYears.text}
@@ -65,12 +61,12 @@ const Home = () => {
         id="product2"
       />
 
-<MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
+      <MiddleBlock
+        title={Sources.title}
+        content={Sources.text}
+        button={Sources.button}
       />
-     
+
     </Container>
   );
 };

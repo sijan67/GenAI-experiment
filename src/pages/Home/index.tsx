@@ -6,6 +6,7 @@ import PositiveImpressions from "../../content/PositiveImpressions.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import ProcessContent from "../../content/ProcessContent.json";
+import AuthorContent from "../../content/Authors.json";
 import NextYears from "../../content/NextYears.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
@@ -37,7 +38,7 @@ const Home = () => {
       <MiddleBlock
         title={ProcessContent.title}
         content={ProcessContent.text}
-        button={MiddleBlockContent.button}
+        button={Sources.button}
       />
       <ContentBlock
         type="normal"
@@ -58,6 +59,14 @@ const Home = () => {
         title={NextYears.title}
         content={NextYears.text}
         icon="waving.svg"
+        id="product2"
+      />
+
+      <ContentBlock
+        type="normal"
+        title={AuthorContent.title}
+        content={AuthorContent.text}
+        icon="authors.png"
         id="product2"
       />
 
